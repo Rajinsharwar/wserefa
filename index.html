@@ -422,42 +422,6 @@
       z-index: 20;
     }
   }
-  /* Beautiful zigzag separator before 9 April section */
-  /* .date-sep.rose-separator {
-    position: relative;
-    margin: 48px auto 28px;
-    padding-top: 38px;
-  } */
-
-  .date-sep.rose-separator::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX( -50% );
-    width: 100%;
-    max-width: 420px;
-    height: 18px;
-    background:
-      linear-gradient(
-        -45deg,
-        transparent 33.33%,
-        #ff7aa2 33.33%,
-        #ff7aa2 66.66%,
-        transparent 66.66%
-      ),
-      linear-gradient(
-        45deg,
-        transparent 33.33%,
-        #ff7aa2 33.33%,
-        #ff7aa2 66.66%,
-        transparent 66.66%
-      );
-    background-size: 16px 32px;
-    background-position: 0 0, 8px 16px;
-    opacity: 0.7;
-    border-radius: 20px;
-  }
 
   /* Rose/flower styled date box */
   .date-sep.rose-separator span {
