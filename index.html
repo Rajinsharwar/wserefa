@@ -24,6 +24,18 @@
 >
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&amp;family=DM+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
 <style>
+  .hero-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 18px;
+    border: 4px solid rgba(255,255,255,0.08);
+    box-shadow:
+      0 10px 35px rgba(0,0,0,0.35),
+      0 0 0 6px rgba(155,125,232,0.12);
+  }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
@@ -460,7 +472,11 @@
 </head>
 <body>
 <div class="hero">
-<span class="hero-heart">💜</span>
+<img
+	class="hero-image"
+	src="social.png"
+	alt="Rajin and Zohra"
+/>
 <h1>Rajin <span>&amp;</span> Zohra</h1>
 <div><p class="sub">Amgor Prothom Chatss — save koira rakhsii </p>🤭🤭</div>
 <div class="date-badge"><i>9th April 2025</i></div>
